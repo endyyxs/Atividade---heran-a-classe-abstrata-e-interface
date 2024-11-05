@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Principal {
 
 	public static void main(String[] args) {
-		Scanner scanner = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite a quantidade de dias: ");
-        int dias = scanner.nextInt();
+        int dias = sc.nextInt();
 
         System.out.print("Digite o número de pessoas: ");
-        int numPessoas = scanner.nextInt();
+        int numPessoas = sc.nextInt();
 
         System.out.println("---------------------------------");
         System.out.println("   Detalhes das Acomodações   ");
@@ -29,7 +29,7 @@ public class Principal {
         
         System.out.println("---------------------------------");
 
-        scanner.close();
+        sc.close();
 	}
 
 }
